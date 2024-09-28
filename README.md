@@ -9,6 +9,11 @@ To run the project, please follow these steps:
 
   Github Link : https://github.com/Ganapathiselvaa/cms_task.git
 
+  git clone :
+  git clone https://github.com/Ganapathiselvaa/cms_task.git
+
+  (or)
+
   Unzip the file.
 
   Open your terminal and run the following commands:
