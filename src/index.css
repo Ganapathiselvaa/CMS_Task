@@ -63,3 +63,6 @@
 .iconLogout {
   padding: 10px;
 }
+.customWidth {
+  width: max-content;
+}
