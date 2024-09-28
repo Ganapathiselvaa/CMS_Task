@@ -2,6 +2,8 @@
 
 ![localhost_3000_ (2)](https://github.com/Ganapathiselvaa/cms_task/blob/main/4_Login_page_OTP_sent.png)
 
+![localhost_3000_ (3)](https://github.com/Ganapathiselvaa/cms_task/blob/main/5_Dashboard_page.png)
+
 
 # Getting Started with Create React App
 
