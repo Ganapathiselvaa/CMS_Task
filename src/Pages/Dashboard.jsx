@@ -11,7 +11,13 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const Dashboard = () => {
   const [isOpen, setIsOpen] = useState(true);
+  const [selectedReport, setSelectedReport] = useState("gps-report");
   const navigate = useNavigate();
+
+  // Handle dropdown selection
+  const handleReportChange = (e) => {
+    setSelectedReport(e.target.value);
+  };
 
   // Toggle drawer open/close
   const toggleDrawer = () => {
@@ -85,8 +91,51 @@ const Dashboard = () => {
 
         <main className="flex-1 p-4 overflow-auto">
           <Toaster toastOptions={{ duration: 4000 }} />
-          <h1 className="text-xl font-semibold mb-4">Dashboard</h1>
-          <DataTable />
+
+          {/* Dropdown for report selection */}
+          <div className="mb-6 customWidth">
+            <label
+              htmlFor="report-select"
+              className="block text-lg font-medium text-gray-700 mb-2"
+            >
+              Select Report Type
+            </label>
+            <select
+              id="report-select"
+              className="w-full p-3 cursor-pointer border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+              onChange={handleReportChange} // Handle dropdown change
+              value={selectedReport} // Sync dropdown with state
+            >
+              <option value="gps-report">GPS Report</option>
+              <option value="bbmp-staff">BBMP Staff-wise Report</option>
+              <option value="aro-wise">ARO-wise Report</option>
+            </select>
+          </div>
+
+          {/* Conditionally render the report title and table based on selected report */}
+          {selectedReport === "gps-report" && (
+            <>
+              <h1 className="text-xl font-semibold mb-4 min-w-full">GPS Report</h1>
+              <DataTable /> {/* Replace with your actual GPS report table */}
+            </>
+          )}
+
+          {selectedReport === "bbmp-staff" && (
+            <>
+              <h1 className="text-xl font-semibold mb-4 min-w-full">
+                BBMP Staff-wise Report
+              </h1>
+              <DataTable />{" "}
+              {/* Replace with your actual BBMP Staff-wise table */}
+            </>
+          )}
+
+          {selectedReport === "aro-wise" && (
+            <>
+              <h1 className="text-xl font-semibold mb-4 min-w-full">ARO-wise Report</h1>
+              <DataTable /> {/* Replace with your actual ARO-wise table */}
+            </>
+          )}
         </main>
       </div>
     </div>
