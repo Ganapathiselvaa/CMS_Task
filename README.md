@@ -1,6 +1,6 @@
-![localhost_3000_ (1)](https://tinyurl.com/22on8uhc)
+![localhost_3000_ (1)](https://tinyurl.com/28q3ct9t.png)
 
-![localhost_3000_ (2)](https://tinyurl.com/28q3ct9t)
+![localhost_3000_ (2)](https://tinyurl.com/28q3ct9t.png)
 
 
 # Getting Started with Create React App
