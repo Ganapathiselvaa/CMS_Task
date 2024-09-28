@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-tel-input .form-control {
+  @apply !w-full py-6 !text-base;
+}
+
+.opt-container {
+  @apply flex justify-between gap-2;
+}
+.opt-container input {
+  @apply !mr-0 flex-1 py-5 outline-none;
+}
+.openCloseBtn {
+  position: absolute;
+  z-index: 9;
+  padding: 7px;
+  color: #1f2937;
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  margin-top: 22px;
+  margin-left: 10px;
+}
+.logoStyle {
+  width: 151px;
+  height: 62px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.titleStyle {
+  padding-left: 35px;
+}
+.menuListItem {
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 8px;
+  color: #000;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+}
+.menuListItem:hover {
+  background-color: #20bb88;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.color1 {
+  background-color: ffffff;
+}
+.color2 {
+  background-color: #039b69;
+  color: #fff;
+}
+.p-2 {
+  padding: 3px;
+}
+.drawerBgColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(180 67 73);
+}
+.iconLogout {
+  padding: 10px;
+}
