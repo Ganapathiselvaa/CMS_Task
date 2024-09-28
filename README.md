@@ -1,6 +1,6 @@
-![localhost_3000_ (1)](https://www.awesomescreenshot.com/image/50822034?key=d83ee408e530a390fd9b70454629b710)
+![localhost_3000_ (1)](https://tinyurl.com/22on8uhc)
 
-![localhost_3000_ (2)](https://www.awesomescreenshot.com/image/50822037?key=ca6fb40d0c545a7fa4edc9e347778d41)
+![localhost_3000_ (2)](https://tinyurl.com/28q3ct9t)
 
 
 # Getting Started with Create React App
