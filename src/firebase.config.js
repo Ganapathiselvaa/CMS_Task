@@ -4,13 +4,13 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDT-94xy_tOHxKfDdE7ILS3ix2K54g02Xo",
-  authDomain: "otpmobile-b3092.firebaseapp.com",
-  projectId: "otpmobile-b3092",
-  storageBucket: "otpmobile-b3092.appspot.com",
-  messagingSenderId: "795283100246",
-  appId: "1:795283100246:web:5b8e30404e363d4e4e61f7",
-  measurementId: "G-SR0DGC0W9R",
+  apiKey: "AIzaSyC0XERcv4PB4U4EKCtzEUxTQeGkdcP1u0M",
+  authDomain: "otpmobile-e1141.firebaseapp.com",
+  projectId: "otpmobile-e1141",
+  storageBucket: "otpmobile-e1141.appspot.com",
+  messagingSenderId: "1045058791736",
+  appId: "1:1045058791736:web:b70f02ca55eb1555d1b9cd",
+  measurementId: "G-KR2JC0FY5K"
 };
 
 // Initialize Firebase
